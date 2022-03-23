@@ -5,7 +5,8 @@
     --white: #ffffff;
     --black: #212429;
     --pink: #F784AD;
-    --purple: #7048E8;
+    --purple-1: #7048E8;
+    --purple-2: #5028C6;
     --blue-1: #4263EB;
     --blue-2: #374FC7;
     --red: #F03D3E;
@@ -19,7 +20,8 @@
 
     --primary: var(--blue-1);
     --primary-hover: var(--blue-2);
-    --secondary: var(--purple);
+    --secondary: var(--purple-1);
+    --secondary-hover: var(--purple-2);
 }
 
 * {
