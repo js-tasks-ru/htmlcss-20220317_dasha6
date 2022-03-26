@@ -5,15 +5,14 @@
 
 .accordion__item {
     padding: 24px 32px;
-    background: #FFFFFF;
-    border: 1px solid #ACB5BD;
+    background: var(--white);
+    border: 1px solid var(--grey-3);
     box-sizing: border-box;
     border-radius: 8px;
-    height: 72px;
 }
 
-.accordion__item[open] {
-    height: 144px;
+.accordion__item:not(:last-child) {
+    margin-bottom: 8px;
 }
 
 .accordion__summary::marker{
