@@ -1,1 +1,21 @@
 /* Стилизация аккордеона */
+.accordion {
+    width: 730px;
+}
+
+.accordion__item {
+    padding: 24px 32px;
+    background: #FFFFFF;
+    border: 1px solid #ACB5BD;
+    box-sizing: border-box;
+    border-radius: 8px;
+    height: 72px;
+}
+
+.accordion__item[open] {
+    height: 144px;
+}
+
+.accordion__summary::marker{
+    content: "";
+}
