@@ -1,6 +1,6 @@
 /* Стилизация аккордеона */
 .accordion {
-    width: 730px;
+    max-width: 730px;
 }
 
 .accordion__item {
@@ -15,6 +15,21 @@
     margin-bottom: 8px;
 }
 
-.accordion__summary::marker{
-    content: "";
+.accordion__summary {
+    font-family: Inter, sans-serif;
+    line-height: 24px; 
+    font-size: 16px;
+    font-weight: 400;
+    list-style: none;
+}
+
+.accordion__summary::-webkit-details-marker {
+    display: none;
+}
+
+.accordion__details-text {
+    font-family: Inter, sans-serif;
+    line-height: 24px; 
+    font-size: 16px;
+    font-weight: 400;
 }
