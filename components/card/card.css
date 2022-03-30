@@ -1,0 +1,26 @@
+.card {
+    width: 350px;
+    height: 367px;
+    background: var(--white);
+    box-shadow: 0px 2px 4px var(--grey-alpha);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card__content {
+    width: 200px;
+    height: 200px;
+    background-color: gainsboro;
+}
+
+.card__caption {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    color: var(--black);
+}

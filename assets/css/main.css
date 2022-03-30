@@ -6,6 +6,7 @@
 @import '../../components/preview/preview.css';
 @import '../../components/footer/footer.css';
 @import '../../components/container/container.css';
+@import '../../components/card/card.css';
 
 :root {
     --white: #ffffff;
@@ -24,9 +25,10 @@
     --grey-4: #495057;
     --grey-gradient-1: #E2E6E8; 
     --grey-gradient-2: #F3F5F5; 
-    --grey-gradient-3: #E3E7EA
+    --grey-gradient-3: #E3E7EA;
     --grey-blue: #90A0B7;
 
+    --grey-alpha: rgba(33, 36, 41, 0.05);
 
     --error: var(--red);
     --success: var(--blue);
