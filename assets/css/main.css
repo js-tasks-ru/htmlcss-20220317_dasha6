@@ -20,6 +20,9 @@
     --grey-2: #DDE2E5;
     --grey-3: #ACB5BD;
     --grey-4: #495057;
+    --grey-gradient-1: #E2E6E8; 
+    --grey-gradient-2: #F3F5F5; 
+    --grey-gradient-3: #E3E7EA;
 
     --error: var(--red);
     --success: var(--blue);
