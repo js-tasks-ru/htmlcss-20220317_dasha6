@@ -56,6 +56,7 @@
 }
 
 .histogram__column {
-    width: 9px;
+    max-width:100px;
+    flex-grow: 1;
     background: var(--blue-1);
 }
