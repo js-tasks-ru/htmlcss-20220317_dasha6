@@ -1,7 +1,6 @@
 .tooltip {
     display: inline-block;
     position: relative;
-    left: 200px;
 }
 
 .tooltip__icon {
@@ -22,7 +21,7 @@
     font-size: 16px;
     font-weight: 400;
     position: absolute;
-    top: calc(100% + 8px);
+    top: calc(100% + 12px);
     left: 50%;
     transform: translateX(-50%);
     white-space: nowrap;
@@ -30,7 +29,7 @@
 
 .tooltip__message::after {
     content: "";
-    border: 14px solid transparent;
+    border: 8px solid transparent;
     border-bottom: 8px solid var(--blue-1);
     position: absolute;
     bottom: 100%;
