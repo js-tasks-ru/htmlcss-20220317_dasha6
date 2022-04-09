@@ -16,12 +16,18 @@
     --purple-2: #5028C6;
     --blue-1: #4263EB;
     --blue-2: #374FC7;
+    --blue-3: #334D6E;
+    --blue-4: #A0B1F5;
     --red: #F03D3E;
     --grey-1: #F9FAFC;
     --grey-2: #DDE2E5;
     --grey-3: #ACB5BD;
     --grey-4: #495057;
     --grey-5: #c4c4c479;
+    --grey-gradient-1: #E2E6E8; 
+    --grey-gradient-2: #F3F5F5; 
+    --grey-gradient-3: #E3E7EA
+    --grey-blue: #90A0B7;
 
     --error: var(--red);
     --success: var(--blue);
