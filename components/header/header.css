@@ -1,6 +1,37 @@
 .header {
-    padding: 96px 0 77px;
+    padding: 16px 0;
+    display: flex;
+    justify-content: center;
 }
+
+.header__links-group {
+    display: none;
+}
+
+@media screen and (min-width: 600px) {
+    .header {
+        justify-content: space-between;
+    }
+
+    .header__links-group {
+        display: flex;
+        gap: 24px;
+    }
+
+    .header__link {
+        text-decoration: none;
+        font-family: Inter, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: var(--black);
+    }
+}
+
+/* .header {
+    padding: 96px 0 77px;
+} */
 
 .header__title {
     margin: 0;

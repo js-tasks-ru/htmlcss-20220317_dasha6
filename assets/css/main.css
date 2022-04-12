@@ -8,6 +8,9 @@
 @import '../../components/footer/footer.css';
 @import '../../components/container/container.css';
 @import '../../components/card/card.css';
+@import '../../components/main/main.css';
+@import '../../components/nav/nav.css';
+@import '../../components/section/section.css';
 @import '../../04-lection2/01-histogram/histogram.css';
 
 :root {
