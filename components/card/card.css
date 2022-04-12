@@ -13,7 +13,7 @@
 }
 
 .card__content {
-    width: 100%;
+    align-self: stretch;
     display: flex;
     flex-direction: column;
     justify-content: center;
