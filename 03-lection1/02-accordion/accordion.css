@@ -21,10 +21,18 @@
     font-size: 16px;
     font-weight: 400;
     list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .accordion__summary::-webkit-details-marker {
     display: none;
+}
+
+.accordion__arrow {
+    width: 18px;
+    height: 10px;
 }
 
 .accordion__details-text {
