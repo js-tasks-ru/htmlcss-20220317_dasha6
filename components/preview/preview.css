@@ -2,3 +2,11 @@
     height: 1036px;
     background-color: var(--grey-1);
 }
+
+.prewiew__inner {
+    padding-top: 68px;
+    padding-bottom: 92px;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}

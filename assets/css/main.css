@@ -7,6 +7,8 @@
 @import '../../components/preview/preview.css';
 @import '../../components/footer/footer.css';
 @import '../../components/container/container.css';
+@import '../../components/card/card.css';
+@import '../../04-lection2/01-histogram/histogram.css';
 
 :root {
     --white: #ffffff;
@@ -28,6 +30,7 @@
     --grey-gradient-2: #F3F5F5; 
     --grey-gradient-3: #E3E7EA;
     --grey-blue: #90A0B7;
+    --grey-alpha: rgba(33, 36, 41, 0.05);
 
     --error: var(--red);
     --success: var(--blue);
