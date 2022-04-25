@@ -1,12 +1,22 @@
 .preview {
-    height: 1036px;
     background-color: var(--grey-1);
 }
 
 .prewiew__inner {
-    padding-top: 68px;
-    padding-bottom: 92px;
+    padding: 22px 15px 0;
     display: flex;
-    gap: 30px;
+    gap: 16px;
     flex-wrap: wrap;
+}
+
+
+@media screen and (min-width: 600px) {
+    .preview {
+        height: 1036px;
+    }
+
+    .prewiew__inner {
+        padding: 68px 0 92px;
+        gap: 30px;
+    }
 }
