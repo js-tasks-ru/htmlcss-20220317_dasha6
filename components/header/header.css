@@ -2,6 +2,10 @@
     border-bottom: 1px solid var(--grey-2);
 }
 
+.header_component-page {
+    border: none;
+}
+
 
 .header__top-menu {
     padding: 16px 0;
