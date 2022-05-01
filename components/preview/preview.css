@@ -3,7 +3,7 @@
 }
 
 .prewiew__inner {
-    padding: 22px 15px 0;
+    padding: 22px 15px;
     display: flex;
     gap: 16px;
     flex-wrap: wrap;
