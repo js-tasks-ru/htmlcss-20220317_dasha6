@@ -1,0 +1,11 @@
+.nav {
+    display: none;
+}
+
+@media screen and (min-width: 600px) {
+    .nav {
+        display: block;
+        width: 229px;
+        outline: 1px solid sandybrown;
+    }
+}
