@@ -49,6 +49,14 @@
     border-bottom: 5px solid var(--black);
 }
 
+.tabs__content_all {
+    display: none;
+}
+
+#all-tab:checked ~ .tabs__content_all {
+    display: block;
+}
+
 .tabs__content_complex {
     display: none;
 }
