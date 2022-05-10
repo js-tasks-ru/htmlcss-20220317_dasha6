@@ -12,6 +12,7 @@
 @import '../../components/nav/nav.css';
 @import '../../components/section/section.css';
 @import '../../04-lection2/01-histogram/histogram.css';
+@import '../../components/tabs/tabs.css';
 
 :root {
     --white: #ffffff;
