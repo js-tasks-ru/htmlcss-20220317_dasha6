@@ -13,9 +13,12 @@
 @import '../../components/section/section.css';
 @import '../../04-lection2/01-histogram/histogram.css';
 @import '../../components/tabs/tabs.css';
+@import '../../07-lection5/03-toggler/toggler.css';
+@import '../../components/logo/logo.css';
 
 :root {
     --white: #ffffff;
+    --white-alpha: #ffffff75;
     --black: #212429;
     --pink: #F784AD;
     --purple-1: #7048E8;
@@ -43,8 +46,22 @@
     --primary-hover: var(--blue-2);
     --secondary: var(--purple-1);
     --secondary-hover: var(--purple-2);
+
+    --main-bg: var(--white);
+    --grey-bg: var(--grey-1);
+    --font-color: var(--black);
+    --text-primary: var(--black);
+    --active-text-color: var(--black);
 }
 
 html, body {
     height: 100%;
+}
+
+html[data-theme-dark] {
+    --main-bg: var(--black);
+    --grey-bg: var(--grey-4);
+    --font-color: var(--white-alpha);
+    --text-primary: var(--white);
+    --active-text-color: var(--grey-1);
 }

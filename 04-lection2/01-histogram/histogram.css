@@ -1,6 +1,6 @@
 .histogram {
     padding: 16px 24px 24px;
-    background: var(--white);
+    background: var(--main-bg);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -34,7 +34,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    color: var(--black);
+    color: var(--font-color);
     opacity: 0.8;
 }
 
@@ -45,7 +45,7 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 26px;
-    color: var(--black);
+    color: var(--text-primary);
 }
 
 .histogram__link {
